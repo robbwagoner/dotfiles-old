@@ -62,6 +62,7 @@ brew cask install phpstorm
 brew cask install pycharm
 #brew cask install rstudio
 # RubyMine
+brew cask install skype
 # Sublime Text 3 (Current repo is 2.0.2)
 brew cask install things
 brew cask install tower

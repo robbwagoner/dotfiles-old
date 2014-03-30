@@ -7,6 +7,7 @@ brew upgrade
 brew tap homebrew/versions
 brew tap phinze/homebrew-cask
 
+brew install brew-cask
 brew install git
 brew install git-flow
 brew install heroku-toolbelt
@@ -16,16 +17,21 @@ brew install mongodb
 brew install mysql
 brew install node
 brew install phantomjs
+brew install tree
+brew install vim
+sudo mv /usr/bin/vim /usr/bin/vim72
 brew install watch
 brew install wget
 brew install zeromq
 
+brew cask install alfred
+brew cask alfred link
 
 # Applications
 # Search tool -> http://caskroom.io
 brew cask install arduino
 brew cask install bartender
-# BBC iPlayer
+brew cask install bbc-iplayer-downloads
 brew cask install brackets
 brew cask install cloud
 brew cask install codebug
@@ -33,7 +39,8 @@ brew cask install codekit
 # Coderunner
 brew cask install crashplan
 brew cask install daisydisk
-# brew cask install diskmaker-x
+# brew cask instill diskmaker-x
+brew cask install dropbox
 brew cask install fantastical
 brew cask install firefox
 # Garmin ANT Agent
@@ -65,3 +72,4 @@ brew cask install viscosity
 brew cask install virtualbox
 brew cask install vmware-fusion
 
+brew cleanup

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+sudo -v # ask for a password at the start
+
+brew update
+brew upgrade
+brew tap homebrew/versions
+brew tap phinze/homebrew-cask
+
+brew install git
+brew install git-flow
+brew install heroku-toolbelt
+brew install memcached
+brew install libmemcached
+brew install mongodb
+brew install mysql
+brew install node
+brew install phantomjs
+brew install watch
+brew install wget
+brew install zeromq
+
+
+# Applications
+# Search tool -> http://caskroom.io
+brew cask install arduino
+brew cask install bartender
+# BBC iPlayer
+brew cask install brackets
+brew cask install cloud
+brew cask install codebug
+brew cask install codekit
+# Coderunner
+brew cask install crashplan
+brew cask install daisydisk
+# brew cask install diskmaker-x
+brew cask install fantastical
+brew cask install firefox
+# Garmin ANT Agent
+brew cask install github
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install gpgtools
+brew cask install hipchat
+# inSSIDer
+brew cask install istat-menus
+brew cask install iterm2
+brew cask install jewelrybox
+brew cask install kaleidoscope
+brew cask install mou
+brew cask install navicat-premium
+# Patterns
+#brew cask install postgres
+brew cask install phpstorm
+brew cask install pycharm
+#brew cask install rstudio
+# RubyMine
+# Sublime Text 3 (Current repo is 2.0.2)
+brew cask install things
+brew cask install tower
+brew cask install transmit
+brew cask install vagrant
+brew cask install versions
+brew cask install viscosity
+brew cask install virtualbox
+brew cask install vmware-fusion
+

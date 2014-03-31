@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Change the location of screen shots
+defaults write com.apple.screencapture location ~/Documents/Screenshots
+
+killall SystemUIServer

@@ -63,6 +63,7 @@ brew cask install pycharm
 #brew cask install rstudio
 # RubyMine
 brew cask install skype
+brew cask install spotify
 # Sublime Text 3 (Current repo is 2.0.2)
 brew cask install things
 brew cask install tower

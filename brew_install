@@ -13,14 +13,12 @@ brew install git-flow
 brew install heroku-toolbelt
 brew install memcached
 brew install libmemcached
-brew install macvim
+brew install macvim --custom-icons --override-system-vim --with-lua --with-luajit
 brew install mongodb
 brew install mysql
 brew install node
 brew install phantomjs
 brew install tree
-brew install vim
-sudo mv /usr/bin/vim /usr/bin/vim72
 brew install watch
 brew install wget
 brew install zeromq

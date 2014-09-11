@@ -1,0 +1,1 @@
+../json/ftplugin/json.vim
